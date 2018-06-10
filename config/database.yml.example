@@ -16,6 +16,12 @@ default: &default
   username: root
   password:
   socket: /var/run/mysqld/mysqld.sock
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    db: 0
+    options:
+      namespace: redis-namespace
 
 development:
   <<: *default
