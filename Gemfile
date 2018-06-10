@@ -28,7 +28,7 @@ end
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Background Job
-gem "resque"
+gem "resque", require: "resque/server"
 gem "resque-scheduler"
 gem "sidekiq"
 gem "sidekiq-status"
@@ -36,3 +36,5 @@ gem "sidekiq-status"
 # Microsoft Office
 gem "axlsx"
 gem "zip-zip"
+
+gem "faker"
