@@ -1,0 +1,3 @@
+ClearOldUserExports:
+  cron: "*/1 * * * *"
+  description: "Clear old user export files"
